@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="form-wrap">
+        <div class="form-container">
+            <form action="" id="multi-step-form">
+                <div id="form-container-box">
+                    <h1 class="form-title">INTERNSHIP APPLICATION FORM<br>STEP-BY-STEP PROCESS</h1>
+                    <ul class="progress-bar">
+                        <li id="step1" class="active">INTERN DETAILS</li>
+                        <li id="step2">SOCIAL PROFILES & CGPA</li>
+                        <li id="step3">PROJECT DETAILS</li>
+                    </ul>
+                    
+                   
+
+                    <!--======== step group1 ========-->
+                    
+                  
+                    <div class="step-group" id="step-group-1">
+                        <h3> INTERN DETAILS </h3><br>
+                        <h4>This is step-1</h4><br>
+                        <div class="form-box">
+                            <div class="form-group">
+                            <input type="text" class="form-field" placeholder="FirstName">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-field" placeholder="LastName">
+                        </div>
+                    </div>
+
+                <div class="form-box">
+                    <div class="form-group">
+                        <input type="email" class="form-field" placeholder="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-field" placeholder="password">
+                    </div>
+                </div>
+
+
+                <div class="form-box">
+                    <div class="form-group">
+                        <input type="text" class="form-field" placeholder="college name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-field" placeholder="college address">
+                    </div>
+                </div>
+                <div class="form-box">
+                    <div class="form-group">
+                        <input type="text" class="form-field" placeholder="course">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-field" placeholder="branch">
+                    </div>
+                </div>
+                <div class="form-box">
+                    <div class="form-group">
+                        <input type="text" class="form-field" placeholder="Reg.no">
+                    </div>
+                    
+                </div>
+
+
+                <div class="form-box">
+                    <div class="btn">
+                        <button id="step-next-1">next &#65515;</button>
+                    </div>
+                </div>
+               </div>
+             <!-- =============Step group 2===============  -->
+           
+             <div class="step-group" id="step-group-2">
+                <h3>SOCIAL PROFILES & CGPA</h3><br>
+                <h4>This is step-2</h4><br>
+                <div class="form-box">
+                    <div class="form-group">
+                    <input type="link" class="form-field" placeholder="linkedin url">
+                </div>
+                <div class="form-group">
+                    <input type="link" class="form-field" placeholder="github url">
+                </div>
+            </div>
+            <div class="form-box">
+                <div class="form-group">
+                    <input type="text" class="form-field" placeholder="board">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-field" placeholder="10th CGPA">
+                </div>
+            </div>
+            
+
+        <div class="form-box">
+            <div class="form-group">
+                <input type="text" class="form-field" placeholder="board">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-field" placeholder="12th CGPA">
+            </div>
+        </div>
+        
+        <div class="form-box">
+            <div class="form-group">
+                <input type="number" class="form-field" placeholder="btech CGPA(up to know)">
+            </div>
+        </div>
+        <div class="form-box">
+            <div class="btn">
+                <button id="step-prev-1">&#65513;prev</button>
+                <button id="step-next-2">next &#65515;</button>
+            </div>
+        </div>
+        </div>
+        <!--=============step-group-3===============-->
+      
+             <div class="step-group" id="step-group-3">
+                <h3>PROJECT DETAILS</h3><br>
+                <h4>This is step-3</h4><br>
+                <div class="form-box">
+                    <div class="form-group">
+                    <textarea class="form-field" placeholder="Projects"></textarea>
+                </div>      
+            </div>
+
+        <div class="form-box">
+            <div class="form-group">
+                <textarea  class="form-field" placeholder="internships"></textarea>
+            </div>
+        </div>
+
+        <div class="form-box">
+            <div class="form-group">
+                <textarea class="form-field" placeholder="participation in any international conferences"></textarea>
+            </div>
+        </div>
+        <div class="form-box">
+            <div class="form-group">
+                <textarea class="form-field" placeholder="FIELD OF INTREST(Ex:FULL STACK DEVELOPER)"></textarea>
+            </div>
+        </div>
+        <div class="form-box">
+            <div class="btn">
+                <button id="step-prev-2">&#65513; prev</button>
+                <button type="submit" id="step-next-3">submit &#65515;</button>
+            </div>
+        </div>
+             </div>
+               </div>
+               <!--successbox------->
+               <div id="sucess-box">
+                <span class="done">&#10004;</span>
+                <p class="sucess-text">YOUR APPLICATION WAS SUBMITTED SUCESSFULLY<br>GOOD LUCK:)<br>.thanks</p>
+                <button id="reset-btn" type="reset">
+                    refresh
+                </button>
+               </div>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
